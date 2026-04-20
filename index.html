@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Calcular sueldo neto</h1>
+
+    <div class="caja">
+        <label for="salarioBruto">Salario bruto anual:</label>
+        <input type="number" id="salarioBruto">
+
+        <button id="btnCalcular">Calcular</button>
+
+        <div id="resultado" class="oculto">
+            <p>Sueldo neto al mes: <span id="montoNeto"></span> €</p>
+            <p>Retención: <span id="porcentaje"></span> %</p>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
